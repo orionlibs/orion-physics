@@ -19,4 +19,28 @@ public abstract class UnitOfMeasurement
         this.quantityName = quantityName;
         this.quantitySymbol = quantitySymbol;
     }
+
+
+    public String getName()
+    {
+        return name;
+    }
+
+
+    public String getSymbol()
+    {
+        return symbol;
+    }
+
+
+    public String getQuantityName()
+    {
+        return quantityName;
+    }
+
+
+    public String getQuantitySymbol()
+    {
+        return quantitySymbol;
+    }
 }

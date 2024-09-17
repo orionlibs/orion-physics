@@ -11,7 +11,7 @@ public class ForceUnitOfMeasurement extends DerivedUnitOfMeasurement
 {
     public ForceUnitOfMeasurement()
     {
-        super("force", "F", "newton", "N", new BasicUnitOfMeasurement[] {
-                        UnitsOfMeasurement.mass, UnitsOfMeasurement.time, UnitsOfMeasurement.length});
+        super("force", "F", "Newton", "N", new BasicUnitOfMeasurement[] {
+                        UnitsOfMeasurement.mass, UnitsOfMeasurement.length, UnitsOfMeasurement.time});
     }
 }

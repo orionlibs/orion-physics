@@ -10,4 +10,10 @@ public abstract class DerivedUnitOfMeasurement extends UnitOfMeasurement
         super(name, symbol, quantityName, quantitySymbol);
         this.basicConstituentUnits = basicConstituentUnits;
     }
+
+
+    public BasicUnitOfMeasurement[] getBasicConstituentUnits()
+    {
+        return basicConstituentUnits;
+    }
 }
