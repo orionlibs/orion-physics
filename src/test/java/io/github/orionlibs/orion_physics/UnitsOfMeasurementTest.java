@@ -13,7 +13,7 @@ import org.junit.jupiter.api.TestInstance.Lifecycle;
 public class UnitsOfMeasurementTest extends ATest
 {
     @Test
-    void test_get()
+    void test_force()
     {
         ForceUnitOfMeasurement force = UnitsOfMeasurement.force;
         assertEquals("force", force.getName());
